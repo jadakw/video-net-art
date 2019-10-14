@@ -1,35 +1,88 @@
 <!DOCTYPE html>
     <head>
         <meta charset="utf-8">
-        <title>Name your website</title>
+        <title>What is going on</title>
         <meta name="description" content="video, digital media art, net-art">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css"> <!-- import your css file -->
-
+<style>
+body{
+    /* import background image from GIPHY  */
+    background-image: url(https://media1.giphy.com/media/3oFyCZm9jPjlzsAwXS/200.webp?cid=790b76112336a6baa7f4f11943d818bb2ad7cfc3caf0c193&rid=200.webp); 
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* font style */
+    color:pink;  /* font color */
+  }
+  
+  
+  /* Set your video size */
+  video{
+    width: 400px;
+    height:240px;
+  }
+  
+  iframe{
+    width: 400px;
+    height:240px;
+  }
+  
+  /* Set your image size */
+  img{
+    width: 400px;
+    height: 240px;
+  }
+  
+  /* You can adjust single video by selecting their class name */
+  .video1{
+    transform: rotate(45deg);
+  }
+  .video2{
+    transform: skew(45deg);
+  }
+  .video3{
+    transform: scale(1.2);
+  }
+  
+  /* Add some animation! */
+  .image2{
+    animation: animation-name 1s infinite; /* Define your animation's name and duration */
+  }
+  /* Use @keyframes to set animation type */
+  @keyframes animation-name{ 
+    10% {
+      transform: translate( 20px);
+    }
+    50% {
+      transform: translate( 100px);
+    }
+    100% {
+      transform: translate( 50px);
+    }
+  }
+  
+  
+    </style>
     </head>
     <body>
-        <h1>Your Net Art Title</h1>
-        <p>Write description about your net art</p>
+        <h1>?????</h1>
+        <p>I'm not sure</p>
         <!-- Here you can insert video files -->
-        <video class="video1" controls autoplay loop muted>
-            <source src="videos/yourfilename.mp4" type="video/mp4">
-            <source src="videos/yourfilename.mp4" type="video/wemp">
-        </video>
         <!-- Or embed video from youtube and vimeo -->
-        <iframe class="video2" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        <iframe class="video2" src="https://www.youtube.com/embed/iLJNSD3H5sg">
         </iframe>
-        <iframe class="video3" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        <iframe class="video3" src="https://www.youtube.com/embed/sXK3pUdBRGA">
         </iframe>
         <br><!-- This is a break -->
         <!-- insert image -->
-        <img class="image1" src="images/yourimagename.jpg">
+        <img class="image1" src="">
         <!-- Or embed image using url  -->
-        <img class="image2" src="https://media.giphy.com/media/3oEhmSWi2G1fOCjZWU/giphy.gif">
-        <img class="image3" src="https://media.giphy.com/media/38pz4QK5fettC/giphy.gif">
+        <img class="image2" src="https://i.pinimg.com/originals/05/9e/fe/059efe36a192f0753efc940016a1fb79.png">
+        <img class="image3" src="https://media3.giphy.com/media/l036MAXRKq0a9C3u9W/giphy.webp?cid=790b761147677213ced0a34cbc261422d5c828c8d43be7ab&rid=giphy.webp">
 
         <br><!-- This is a break -->
         <!-- Maybe have a link to other website -->
-        <a href="www.google.com">Here is a link</a>
-        <p>Write description about your net art</p>
+        
+        <p>aaaaaaaaahhhhhhhhhhhhhhhhhhh</p>
     </body>
 </html>
